@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# El Capitán Takács - Captain Morgan Website
 
-## Getting Started
+A modern, responsive website built with Next.js, TypeScript, and Tailwind CSS, recreating the legendary El Capitán Takács brand experience.
 
-First, run the development server:
+## 🚀 Features
 
+- **Landing Page**: Dramatic hero section with "TAKACS" branding
+- **Control Room**: Interactive DJ mixer interface with dual decks
+- **Rum Rituals**: Custom brew generation with multiple modes
+- **Energy Metrics**: Real-time party monitoring dashboard with charts
+- **Quote of the Day**: Daily inspirational quotes from El Capitán Takács
+- **Spinning Wheel**: Interactive wheel of fortune game
+
+## 🛠 Tech Stack
+
+- **Next.js 16** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **Recharts** - Chart library for data visualization
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/YOUR-USERNAME/takacs-website.git
+cd takacs-website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+### Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A projekt GitHub Pages-re van beállítva automatikus deployment-tel.
 
-## Deploy on Vercel
+**Gyors GitHub Pages deployment:**
+1. Push the code to GitHub
+2. Go to repository Settings → Pages
+3. Select "GitHub Actions" as source
+4. Wait 2-3 minutes for deployment
+5. Access your site at: `https://USERNAME.github.io/REPO-NAME` 🎉
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A részletes deployment útmutatót lásd a [DEPLOYMENT.md](./DEPLOYMENT.md) fájlban.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Project Structure
+
+```
+app/
+├── page.tsx              # Main landing page
+├── layout.tsx            # Root layout
+├── globals.css           # Global styles
+└── ...
+
+public/
+├── audio/                # MP3 audio files for music player
+└── ...
+```
+
+## 🎨 Design Features
+
+- Dark theme with orange/yellow accents
+- Glowing text effects
+- Diagonal pattern backgrounds
+- Smooth transitions and hover effects
+- Interactive components
+- Responsive design for all devices
+
+## 📝 License
+
+Built for the Legend - No Rum Spilled 🍹
+
+## 🔗 Live Demo
+
+[Add your deployment URL here after deployment]
