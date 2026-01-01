@@ -22,11 +22,11 @@ const modes = [
 ];
 
 const songs = [
-  { id: 1, title: "Neon Nights", artist: "Takács & The Kraken", bpm: 128, src: "/audio/neon-nights.mp3" },
-  { id: 2, title: "Rum Runner's Delight", artist: "Captain's Mix", bpm: 132, src: "/audio/rum-runners-delight.mp3" },
-  { id: 3, title: "2009 Basement Rave", artist: "EDM Legends", bpm: 140, src: "/audio/2009-basement-rave.mp3" },
-  { id: 4, title: "Pirate's Anthem", artist: "The High Seas", bpm: 125, src: "/audio/pirates-anthem.mp3" },
-  { id: 5, title: "Turbo Charged", artist: "Absolute Chaos", bpm: 145, src: "/audio/turbo-charged.mp3" },
+  { id: 1, title: "Neon Nights", artist: "Takács & The Kraken", bpm: 128, src: "/takacs-website/audio/neon-nights.mp3" },
+  { id: 2, title: "Rum Runner's Delight", artist: "Captain's Mix", bpm: 132, src: "/takacs-website/audio/rum-runners-delight.mp3" },
+  { id: 3, title: "2009 Basement Rave", artist: "EDM Legends", bpm: 140, src: "/takacs-website/audio/2009-basement-rave.mp3" },
+  { id: 4, title: "Pirate's Anthem", artist: "The High Seas", bpm: 125, src: "/takacs-website/audio/pirates-anthem.mp3" },
+  { id: 5, title: "Turbo Charged", artist: "Absolute Chaos", bpm: 145, src: "/takacs-website/audio/turbo-charged.mp3" },
 ];
 
 const recipes = {
